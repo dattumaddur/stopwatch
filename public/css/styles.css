@@ -8,10 +8,17 @@
     padding: 7% 15%;
 }
 
-body{
+
+html,body{
     background-color:burlywood;
+    height: 100%;
+    width:100%;
 }
 
+header{
+  text-align: center;
+  padding-top:5%
+}
 .btn {
     -webkit-border-radius: 10;
     -moz-border-radius: 10;
@@ -67,3 +74,43 @@ body{
     list-style-type: none;
     
   }
+
+  /* form styles */
+
+  .calculate{
+    padding: 12% 20%;
+    margin-left: 7%;
+    margin-right:7%;
+  }
+
+  .form-control{
+    padding:3% 3%;
+    margin: 2% 3%;
+  }
+
+  .btn-primary{
+   margin-left:30%;
+   border-radius: 20%;
+  }
+
+  /* footer styles */
+
+.page-footer{
+  padding:7%;
+  margin-bottom: 20%;
+  margin-top:-2%
+}
+
+.sm{
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+.mb-5{
+  margin-left:20%
+}
+
+.back{
+  margin-right:80%;
+  color: black;
+}
